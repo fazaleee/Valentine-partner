@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef } from 'react';
 
 interface ProposalProps {
     onYes: () => void;
